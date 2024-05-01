@@ -1,3 +1,6 @@
+?php
+include('connection.php')
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,9 +27,9 @@
                 <h1>login</h1>
                 <form action="aluno-dashboard.html" method="post">
                     <div class="textfield">
-                    <label for="matricula">Matrícula:</label>
-                    <input type="text" id="matricula"
-                     name="matricula" required placeholder="Matrícula">
+                    <label for="matricula">Email:</label>
+                    <input type="text" id="email"
+                     name="email" required placeholder="email">
                     </div>
                     <div class="textfield">
                     <label for="senha">Senha:</label>
